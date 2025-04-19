@@ -74,3 +74,15 @@ textarea:not([rows]) {
 }
 
 /* CSS Styles 👇 */
+* {
+  font-family: 'Dosis', sans-serif;
+}
+:root {
+  ---dark-silver-cyan: hsl(192, 42%, 56%);
+  ---baby-blue: hsl(193, 42%, 56%);
+  ---bottle-green:  hsl(191, 38%, 39%);
+}
+body {
+  padding: 15px 20px;
+  
+}
