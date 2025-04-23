@@ -83,6 +83,55 @@ textarea:not([rows]) {
   ---bottle-green:  hsl(191, 38%, 39%);
 }
 body {
+  background: url('7471609_01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 15px 20px;
   
+}
+header {
+  background-color: white;
+  padding: 20px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ul {
+  display: none;
+  list-style: none;
+  gap: 15px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(---dark-silver-cyan);
+}
+.text h1 {
+  color: white;
+}
+.text h2 {
+  color: whitesmoke;
+}
+.text p {
+  color: var(---bottle-green);
+}
+footer {
+  display: flex;
+  color: var(---baby-blue);
+}
+@media screen and (min-width: 37.5rem) {
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .wrapper {
+    flex-direction: row;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
